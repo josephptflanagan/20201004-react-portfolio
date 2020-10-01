@@ -9,8 +9,11 @@ const Modal = ({ onClose, currentApplication }) => {
                 <h3 className="modalTitle">{name}</h3>
                 <img src={require(`../../assets/img/large/${category}/${index}.jpg`)} alt="current category" />
                 <p>{description}</p>
-                <p><a href={gitHub}>Repository</a></p>
-                <p><a href={site}>Deployed Site</a></p>
+                <p><a href={gitHub} target="_blank">Repository</a></p>
+                {(site != 'NA') ? (
+                    <p><a href={site} target="_blank">Deployed Site</a></p>):(
+                        <p></p>
+                )}
                 <button onClick={onClose} type="button">Close this modal</button>
             </div>
         </div>

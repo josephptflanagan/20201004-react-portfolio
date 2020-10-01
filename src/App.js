@@ -7,12 +7,9 @@ import ContactForm from './components/Contact';
 function App() {
 
   const [categories] = useState([
-    {
-      name: 'Front End',
-      description: 'Exclusively Front End Projects',
-    },
-    { name: 'Back End', description: 'Exclusively Back End Projects' },
-    { name: 'Full Stack', description: 'Front and Back End Projects' }
+    { name: 'Front', description: 'Exclusively Front End Projects' },
+    { name: 'Back', description: 'Exclusively Back End Projects' },
+    { name: 'Full', description: 'Front and Back End Projects' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

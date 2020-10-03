@@ -145,6 +145,13 @@ const ApplicationList = ({ category }) => {
       site:'https://pacific-hamlet-81446.herokuapp.com/',
     },
     {
+      name: 'famSpace',
+      category: 'full',
+      description: 'A social media site centered on families',
+      gitHub: 'https://github.com/shanemcf/famSpace',
+      site:'https://famspace.herokuapp.com/',
+    },
+    {
       name: 'Pizza Hunt ',
       category: 'back',
       description: 'Education exercise to learn MongoDB through the construction of a social media site centered on Pizza',

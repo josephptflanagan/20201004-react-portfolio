@@ -14,8 +14,27 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+
+  const [currentPage, handlePageChange] = useState('About');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'About':
+        return <About />;
+      case 'Contact':
+        return <ContactForm />;
+      case 'Front':
+        return <Applications currentCategory={categories[0]}></Applications>;
+      case 'Back':
+        return <Applications currentCategory={categories[1]}></Applications>;
+      case 'Full':
+        return <Applications currentCategory={categories[2]}></Applications>;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
 
   return (
     <div>
@@ -23,22 +42,12 @@ function App() {
         categories={categories}
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
+        currentPage={currentPage} 
+        handlePageChange={handlePageChange} 
       ></Nav>
       <main>
 
-        {!contactSelected ? (
-          <>
-            <Applications currentCategory={currentCategory}></Applications>
-            <About></About>
-            <Resume></Resume>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          )}
+        <div>{renderPage(currentPage)}</div>
 
       </main>
     </div>

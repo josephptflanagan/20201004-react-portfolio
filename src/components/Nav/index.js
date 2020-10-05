@@ -5,14 +5,18 @@ function Nav(props) {
     const {
         categories = [],
         setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
+        currentPage, 
+        handlePageChange
     } = props;
 
     useEffect(() => {
-        document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);
+        document.title = capitalizeFirstLetter(currentPage);
+    }, [currentPage]);
+
+    function applicationClickHandler(category){
+        handlePageChange(capitalizeFirstLetter(category.name));
+        setCurrentCategory(category);
+    }
 
     return (
         <header className="flex-row px-1">
@@ -23,33 +27,27 @@ function Nav(props) {
             </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
-                        <a data-testid="about" href="#about">
-                            About me
-                        </a>
+                    <li className={`mx-2 ${currentPage === "About" && `navActive`}`}>
+                        <span onClick={()=>handlePageChange("About")} className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About me</span>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <li className={`mx-2 ${currentPage === "Contact" && `navActive`}`}>
+                        <span onClick={()=>handlePageChange("Contact")} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact</span>
                     </li>
                     {categories.map((category) => (
                         <li
-                            className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
-                                }`}
+                            className={`mx-1 ${ currentPage === capitalizeFirstLetter(category.name) && `navActive`}`}
                             key={category.name}
                         >
-                            <span onClick={() => {
-                                setCurrentCategory(category);
-                                setContactSelected(false);
-                            }}
-                            >
+                            <span 
+                                onClick={()=> applicationClickHandler(category)}
+                                className={currentPage === capitalizeFirstLetter(category.name) ? 'nav-link active' : 'nav-link'}
+                                > 
                                 {capitalizeFirstLetter(category.name)}
-                            </span>
+                                </span>
                         </li>
                     ))}
-                    <li className="mx-2">
-                        <a data-testid="resume" href="#resume">
-                            Resume
-                        </a>
+                    <li className={`mx-2 ${currentPage === "Resume" && `navActive`}`}>
+                    <span onClick={()=>handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>Resume</span>
                     </li>
                 </ul>
             </nav>

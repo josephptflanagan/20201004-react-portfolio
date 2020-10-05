@@ -7,13 +7,13 @@ function About() {
         
         <section className="about">
             <div>
-                <h1 id="about">Who am I?</h1>
+                <h1 id="about">About me</h1>
                 {/*<img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />*/}
-                <img class="profile-picture" src={profilePicture} alt="Joseph Flanagan" />
+                <img className="profile-picture" src={profilePicture} alt="Joseph Flanagan" />
             </div>
-            <div class="bio">
+            <div className="bio">
                 <p>
-                    I've been working at Niece Equipment as Design Engineer for nearly 6 years, ever since earning a BS in Engineering Technology with a Mechanical Specialization
+                    I've been working at Niece Equipment as Design Engineer for 6 years, ever since earning a BS in Engineering Technology with a Mechanical Specialization
                     graduating Magna Cum Laude from Texas State in August 2014.
                 </p>
                 <br />

@@ -3,7 +3,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Applications from './components/Applications';
 import ContactForm from './components/Contact';
-import Resume from "./components/Resume"
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="page-container">
       <Nav
         categories={categories}
         currentCategory={currentCategory}
@@ -50,6 +51,7 @@ function App() {
         <div>{renderPage(currentPage)}</div>
 
       </main>
+      <Footer />
     </div>
   );
 }

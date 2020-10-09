@@ -4,7 +4,7 @@ function Resume() {
 
     return (
         <section id="resume">
-            <a  href="../../assets/pdf/JosephFlanagan_Resume.pdf" download>
+            <a  href="https://drive.google.com/uc?export=download&id=1lrwQxlFgh1mKX43zzDS1EehTJB1dyWcn" download>
                 Click here to download a copy of my resume.
             </a>
         </section>

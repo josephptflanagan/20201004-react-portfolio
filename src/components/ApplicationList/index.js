@@ -186,6 +186,13 @@ const ApplicationList = ({ category }) => {
       gitHub: 'https://github.com/josephptflanagan/photo-port',
       site:'https://josephptflanagan.github.io/photo-port/',
     },
+    {
+      name: 'Deep Thoughts',
+      category: 'full',
+      description: 'A MERN stack application built for the educational purpose of creating a social media site',
+      gitHub: 'https://github.com/josephptflanagan/deep-thoughts',
+      site:'https://stark-eyrie-59661.herokuapp.com/',
+    }
   ]);
 
   const currentApplications = applications.filter((application) => application.category === category);

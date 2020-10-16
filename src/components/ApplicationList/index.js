@@ -5,7 +5,7 @@ const ApplicationList = ({ category }) => {
 
   const [applications] = useState([
     {
-      name: 'Run Budddy',
+      name: 'Run Buddy',
       category: 'front',
       description: 'The front end of a running based fitness subscription funded site',
       gitHub: 'https://github.com/josephptflanagan/run-buddy',

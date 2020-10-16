@@ -192,6 +192,13 @@ const ApplicationList = ({ category }) => {
       description: 'A MERN stack application built for the educational purpose of creating a social media site',
       gitHub: 'https://github.com/josephptflanagan/deep-thoughts',
       site:'https://stark-eyrie-59661.herokuapp.com/',
+    },
+    {
+      name: 'Shop Shop',
+      category: 'full',
+      description: 'A MERN stack application built for the educational purpose of creating an e-commerce site connected to the Stripe payment platform',
+      gitHub: 'https://github.com/josephptflanagan/shop-shop',
+      site:'https://stormy-basin-45676.herokuapp.com/',
     }
   ]);
 

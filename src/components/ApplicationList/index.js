@@ -200,6 +200,14 @@ const ApplicationList = ({ category }) => {
       gitHub: 'https://github.com/josephptflanagan/shop-shop',
       site:'https://stormy-basin-45676.herokuapp.com/',
     }
+    ,
+    {
+      name: 'Google Book Search',
+      category: 'full',
+      description: 'A MERN stack application built for the educational purpose of replacing an operational RESTful API with GraphQL API',
+      gitHub: 'https://github.com/josephptflanagan/20201011-mern-book-search-engine',
+      site:'https://sleepy-anchorage-14076.herokuapp.com/',
+    }
   ]);
 
   const currentApplications = applications.filter((application) => application.category === category);

@@ -199,15 +199,28 @@ const ApplicationList = ({ category }) => {
       description: 'A MERN stack application built for the educational purpose of creating an e-commerce site connected to the Stripe payment platform',
       gitHub: 'https://github.com/josephptflanagan/shop-shop',
       site:'https://stormy-basin-45676.herokuapp.com/',
-    }
-    ,
+    },
     {
       name: 'Google Book Search',
       category: 'full',
       description: 'A MERN stack application built for the educational purpose of replacing an operational RESTful API with GraphQL API',
       gitHub: 'https://github.com/josephptflanagan/20201011-mern-book-search-engine',
       site:'https://sleepy-anchorage-14076.herokuapp.com/',
-    }
+    },
+    {
+      name: 'Shop Shop Redux',
+      category: 'full',
+      description: 'A MERN stack application rebuilt for the educational purpose of utilizing Redux',
+      gitHub: 'https://github.com/josephptflanagan/mern-store-redux',
+      site:'https://gentle-shore-35754.herokuapp.com/',
+    },
+    {
+      name: 'Buskr',
+      category: 'full',
+      description: 'A group project MERN Stack Application for independent musicians to gain exposure, utilizing AWS S3, Cognito, IAM, and Cloudfront to allow for uploads and music streaming',
+      gitHub: 'https://github.com/jessicajernigan/dreamteam_project3',
+      site:'https://polar-headland-24294.herokuapp.com/',
+    },
   ]);
 
   const currentApplications = applications.filter((application) => application.category === category);

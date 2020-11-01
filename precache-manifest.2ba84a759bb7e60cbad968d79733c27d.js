@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b05ff3ca554ebf745ad95c64d853b25b",
+    "revision": "f006d80d887c77414db91dd616c987f1",
     "url": "/20201004-react-portfolio/index.html"
   },
   {
-    "revision": "6e8b927e9e2b457eb503",
-    "url": "/20201004-react-portfolio/static/css/main.8a6e591a.chunk.css"
+    "revision": "65632dfe4db693b5f8e7",
+    "url": "/20201004-react-portfolio/static/css/main.86eb448c.chunk.css"
   },
   {
     "revision": "83e3b0eee1505397f50c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20201004-react-portfolio/static/js/2.caf52bee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e8b927e9e2b457eb503",
-    "url": "/20201004-react-portfolio/static/js/main.1afedf2d.chunk.js"
+    "revision": "65632dfe4db693b5f8e7",
+    "url": "/20201004-react-portfolio/static/js/main.b4dcc8dd.chunk.js"
   },
   {
     "revision": "e60cd5082935ea0b4313",
@@ -208,6 +208,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20201004-react-portfolio/static/media/6.61bf9a78.jpg"
   },
   {
+    "revision": "84638205fd027fb19b0c5b6d36475be2",
+    "url": "/20201004-react-portfolio/static/media/6.84638205.jpg"
+  },
+  {
+    "revision": "8f3f64de2f61ae45e10442d85dcbed16",
+    "url": "/20201004-react-portfolio/static/media/6.8f3f64de.jpg"
+  },
+  {
+    "revision": "08e47f652fcd61e0795ed13c854ea610",
+    "url": "/20201004-react-portfolio/static/media/7.08e47f65.jpg"
+  },
+  {
     "revision": "27b9d0032cfd330df2fb7b877c3a2792",
     "url": "/20201004-react-portfolio/static/media/7.27b9d003.jpg"
   },
@@ -218,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "630c1e49c449c4b1b99a41e1d6349f0d",
     "url": "/20201004-react-portfolio/static/media/7.630c1e49.jpg"
+  },
+  {
+    "revision": "7403e50fae3dd24b76f9d7d788ed509f",
+    "url": "/20201004-react-portfolio/static/media/7.7403e50f.jpg"
   },
   {
     "revision": "e15391fc54424d6e54434148957c440b",

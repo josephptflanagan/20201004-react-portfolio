@@ -24,9 +24,9 @@ function About() {
                 </p>
                 <br />
                 <p>
-                    I am currently attending a University of Texas Coding Bootcamp, to be concluded in December 2020. Since starting this course I've become familiar with Git, HTML,
+                    I recently completed a six month University of Texas Coding Bootcamp. This course introduced me to Git, HTML,
                     CSS, JavaScript, AJAX, jQuery, MySQL, MongoDB, Express.js, React, Node.js, HandleBars.js, Object Oriented Programing (OOP), Test Driven Development(TDD),
-                    Object-Relational Mapping(ORM), Model-View-Controller(MVC), RegEx, and Progressive Web Applications (PWA).
+                    Object-Relational Mapping(ORM), Model-View-Controller(MVC), RegEx, Progressive Web Applications (PWA), and Amazon Web Services (specifically S3, Cognito, IAM, and Cloudfront).
                 </p>
             </div>
         </section>

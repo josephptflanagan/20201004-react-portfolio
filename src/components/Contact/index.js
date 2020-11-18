@@ -40,6 +40,8 @@ function ContactForm() {
     }
 
     return (
+        //TODO: ADD BACKEND FOR EMAIL
+        /*
         <section>
             <h1 data-testid="h1tag">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
@@ -62,6 +64,10 @@ function ContactForm() {
                 )}
                 <button data-testid="button" type="submit">Submit</button>
             </form>
+        </section>
+        */
+        <section>
+             <h1 data-testid="h1tag"><a href="mailto:josephptflanagan@gmail.com">Email Me</a></h1>
         </section>
     );
 

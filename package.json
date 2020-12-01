@@ -1,6 +1,6 @@
 {
-  "homepage": "https://josephptflanagan.github.io/20201004-react-portfolio",
-  "name": "20201004-react-portfolio",
+  "homepage": "https://josephptflanagan.github.io/react-portfolio",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

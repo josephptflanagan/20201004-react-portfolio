@@ -20,13 +20,16 @@ function About() {
                 <p>
                     In that line of work I designed water, fuel, and fuel and lube units to customer specifications that have sold for hundreds of thousands of dollars and shipped
                     across the United States, Mexico, and Mali. The benefit of
-                    working for a smaller company is that I've had a wide range of responsibilities.
+                    working for a smaller company is that I've had a wide range of responsibilities, and have worn many hats.
                 </p>
                 <br />
                 <p>
                     I recently completed a six month University of Texas Coding Bootcamp. This course introduced me to Git, HTML,
                     CSS, JavaScript, AJAX, jQuery, MySQL, MongoDB, Express.js, React, Node.js, HandleBars.js, Object Oriented Programing (OOP), Test Driven Development(TDD),
                     Object-Relational Mapping(ORM), Model-View-Controller(MVC), RegEx, Progressive Web Applications (PWA), and Amazon Web Services (specifically S3, Cognito, IAM, and Cloudfront).
+                </p>
+                <p>
+                    
                 </p>
             </div>
         </section>

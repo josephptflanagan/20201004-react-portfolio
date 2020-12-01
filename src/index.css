@@ -325,3 +325,7 @@ footer{
   align-content: center;
   justify-content: center;  
 }
+
+.logo{
+  margin: 5px;
+}

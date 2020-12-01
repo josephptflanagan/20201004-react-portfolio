@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0af8e2560083d81c02fb588af28e097d",
+    "revision": "e168b9a2a3e291aed2249dc4595c99af",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "76f38e5b2723ffc35fd0",
-    "url": "/react-portfolio/static/css/main.86eb448c.chunk.css"
+    "revision": "2720a598a15acada1be4",
+    "url": "/react-portfolio/static/css/main.58f70de2.chunk.css"
   },
   {
-    "revision": "bccb510fd72ebd33f758",
-    "url": "/react-portfolio/static/js/2.04882bfc.chunk.js"
+    "revision": "3d1628125a8ed14becd0",
+    "url": "/react-portfolio/static/js/2.8b8e2111.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-portfolio/static/js/2.04882bfc.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.8b8e2111.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76f38e5b2723ffc35fd0",
-    "url": "/react-portfolio/static/js/main.0b99dadf.chunk.js"
+    "revision": "2720a598a15acada1be4",
+    "url": "/react-portfolio/static/js/main.561a02c9.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -272,8 +272,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/9.c8cd9e86.jpg"
   },
   {
+    "revision": "7415a70abb0fbaeab688508b2d8b1ce4",
+    "url": "/react-portfolio/static/media/CSS3_Logo.7415a70a.svg"
+  },
+  {
     "revision": "7315eafb6387cf9b10626f3d36da36c0",
     "url": "/react-portfolio/static/media/GitHub-Mark.7315eafb.png"
+  },
+  {
+    "revision": "a3492ddba4b979effdc4c62f5adf1bb2",
+    "url": "/react-portfolio/static/media/HTML5_Logo.a3492ddb.svg"
+  },
+  {
+    "revision": "dd60b11e9762b6e25f6d4ce981a1eeae",
+    "url": "/react-portfolio/static/media/JavaScript_Logo.dd60b11e.svg"
+  },
+  {
+    "revision": "25bd805ffbd0a06888275f123015c4ad",
+    "url": "/react-portfolio/static/media/MongoDB_Logo.25bd805f.svg"
+  },
+  {
+    "revision": "89ccb09060a7adf788ea2340c54d6d78",
+    "url": "/react-portfolio/static/media/Node.js_logo.89ccb090.svg"
+  },
+  {
+    "revision": "05a3e30fdf60ebe9d00cf4725d44bd42",
+    "url": "/react-portfolio/static/media/React-icon.05a3e30f.svg"
+  },
+  {
+    "revision": "a34ec4d2bd0e27206dbacfee133aa68c",
+    "url": "/react-portfolio/static/media/aws-S3.a34ec4d2.svg"
+  },
+  {
+    "revision": "f6548ecf505f4f4454ab3b1bb0cf10df",
+    "url": "/react-portfolio/static/media/aws-cloudfront.f6548ecf.svg"
+  },
+  {
+    "revision": "4d81ae16d5ed9a129679622c9e5b128c",
+    "url": "/react-portfolio/static/media/aws-cognito.4d81ae16.svg"
+  },
+  {
+    "revision": "0fb30b49da79da6979871081a23bfd53",
+    "url": "/react-portfolio/static/media/expressjs_Logo.0fb30b49.svg"
   },
   {
     "revision": "d68bf33ef2b84501d883f1e2f861c0ea",
